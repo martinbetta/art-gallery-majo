@@ -35,7 +35,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 #Cloudinary
 gem 'dotenv-rails', groups: [:development, :test]
-
+gem 'cloudinary', '~> 1.16.0'
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
