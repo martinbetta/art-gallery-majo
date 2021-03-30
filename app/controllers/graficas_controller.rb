@@ -1,0 +1,2 @@
+class GraficasController < ApplicationController
+end

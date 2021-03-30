@@ -1,0 +1,2 @@
+class DibujosController < ApplicationController
+end
