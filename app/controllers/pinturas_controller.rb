@@ -1,0 +1,2 @@
+class PinturasController < ApplicationController
+end
