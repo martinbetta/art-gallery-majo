@@ -31,6 +31,22 @@
   position: relative;
 
 }
+
+
+.text-trayectoria{
+    position: absolute;
+    font-size: 1vw;
+    margin-left:65vw;
+    padding: 1vw;
+    background-color: #FFFFFF;
+    text-align: center;
+     .btn-home{
+      font-size: 1.7vw;
+      margin-top: -1vw;
+    }
+  }
+
+
 ///////////////////////////Category Grid/////////////////////////
 
 .title-category-home{
@@ -56,7 +72,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: row dense;
-  grid-gap: 16px;
+  grid-gap: 40px;
   grid-auto-rows: minmax(300px, auto);
   border-radius: 10px;
 
@@ -65,7 +81,6 @@
     grid-column: span 1;
     background-image: url('https://res.cloudinary.com/djrxx3xla/image/upload/v1616679278/opus_XII_zn4qgu.jpg');
   }
-
 }
 
 ////Setting all the categories ///
