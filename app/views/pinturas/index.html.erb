@@ -1,1 +1,15 @@
-index.html.erb
+<%=  @pinturas  %>
+
+
+    <div class="pizza_index">
+      <%@pinturas.each do |pintura|%>
+        <ul><%=pintura.title.upcase%>:
+        <%=pintura.detail%>
+        <%=pintura.photo%>
+        <%=pintura.category%>.
+        <%=pintura.size%>.
+        <%=pintura.year%>..
+      </ul>
+      <%end%>
+  </div
+
